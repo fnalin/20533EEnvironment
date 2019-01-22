@@ -9,13 +9,13 @@ Instruções p/ os alunos montarem do ambiente do curso
 - Execute "Set-ExecutionPolicy –ExecutionPolicy Bypass –Force" para executar scripts "não seguros" (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6)
 - Instale o PowerShell Community Extensions p/ ter algumas extensões usadas nos labs: https://github.com/Pscx/Pscx (caso dê erro que já exista, rode o update-module ao invés do install-module)
 - Reinicie a máquina
-- Importe os módulos do curso:
-	import-module "F:\Allfiles\Modules\Add-20533EEnvironment\Add-20533EEnvironment.psm1"
-	import-module "F:\Allfiles\Modules\Remove-20533EEnvironment\Remove-20533EEnvironment.psm1"
-	import-module "F:\Allfiles\Modules\Select-20533ELocationARM\Select-20533ELocationARM.psm1"
-	import-module "F:\Allfiles\Modules\Select-20533ESubscriptionARM\Select-20533ESubscriptionARM.psm1"
-	import-module "F:\Allfiles\Modules\Set-20533EEnvironment\Set-20533EEnvironment.psm1"
-	import-module "F:\Allfiles\Modules\Set-20533EVMSize\Set-20533EVMSize.psm1"
+- Importe os módulos do curso: <br>
+	import-module "F:\Allfiles\Modules\Add-20533EEnvironment\Add-20533EEnvironment.psm1"<br>
+	import-module "F:\Allfiles\Modules\Remove-20533EEnvironment\Remove-20533EEnvironment.psm1"<br>
+	import-module "F:\Allfiles\Modules\Select-20533ELocationARM\Select-20533ELocationARM.psm1"<br>
+	import-module "F:\Allfiles\Modules\Select-20533ESubscriptionARM\Select-20533ESubscriptionARM.psm1"<br>
+	import-module "F:\Allfiles\Modules\Set-20533EEnvironment\Set-20533EEnvironment.psm1"<br>
+	import-module "F:\Allfiles\Modules\Set-20533EVMSize\Set-20533EVMSize.psm1"<br>
 - Para gravar a importação de forma permanente:
 	- Verifique se o arquivo profile existe:
 		Test-Path $profile
