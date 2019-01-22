@@ -16,14 +16,14 @@ Instruções p/ os alunos montarem do ambiente do curso
 	import-module "F:\Allfiles\Modules\Select-20533ESubscriptionARM\Select-20533ESubscriptionARM.psm1"<br>
 	import-module "F:\Allfiles\Modules\Set-20533EEnvironment\Set-20533EEnvironment.psm1"<br>
 	import-module "F:\Allfiles\Modules\Set-20533EVMSize\Set-20533EVMSize.psm1"<br>
-- Para gravar a importação de forma permanente:
-	- Verifique se o arquivo profile existe:
-		Test-Path $profile
-		Se for true, verifique o caminho atual:
-			$profile
-		Se for false, crie:
-			New-Item -path $profile -type file –force
+- Para gravar a importação de forma permanente:<br>
+	- Verifique se o arquivo profile existe:<br>
+		Test-Path $profile<br>
+		Se for true, verifique o caminho atual:<br>
+			$profile<br>
+		Se for false, crie:<br>
+			New-Item -path $profile -type file –force<br>
 - Edite o arquivo gerado e coloque as importações anteriores
 - Basta Salvar o arquivo e reiniciar a máquina
-- Teste executando a montagem do lab1:
+- Teste executando a montagem do lab1:<br>
 	Add-20533EEnvironment (Lab1 | eastus)
