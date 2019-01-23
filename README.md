@@ -27,3 +27,5 @@ Instruções p/ os alunos montarem do ambiente do curso
 - Basta Salvar o arquivo e reiniciar a máquina
 - Teste executando a montagem do lab1:<br>
 	Add-20533EEnvironment (Lab1 | eastus)
+- Instale o Azure cli:<br>
+	- Na página de downloads do Azure (https://azure.microsoft.com/en-us/downloads/), em Azure command-line interface, clique em Install
